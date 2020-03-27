@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>String Analyser</title>
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+
+  <body>
+    <script src="./script.js" type="text/javascript"></script>
+    <div class="Ansh">
+      <span class="string">String\</span>
+      <span class="analyser">\Analyser</span>
+    </div>
+    <br /><br /><br /><br /><br /><br /><br />
+    <h4 class="Ansh2" style="font-size: 25px;">
+      Enter the string below to obtain the number of Vowels, Consonants, Spaces
+      and Special Characters in the string:
+    </h4>
+    <br /><br />
+    <div>
+      <form class="Ansh3">
+        <input type="text" name="" id="text1" placeholder="Enter the String" />
+        <button
+          class="btns"
+          onclick="fn1()"
+          onsubmit="return false;"
+          type="button"
+        >
+          Submit
+        </button>
+
+        <button class="btnr" type="reset">Reset</button>
+      </form>
+    </div>
+    <br /><br /><br />
+    <div class="container">
+      <div class="row text-center x">
+        <div class="col-md-3 counter_box x">
+          <p id="vowel" class="counter">0</p>
+          <p><b>VOWELS</b></p>
+        </div>
+        <div class="col-md-3 counter_box x">
+          <p id="consonant" class="counter">0</p>
+          <p><b>CONSONANTS</b></p>
+        </div>
+        <div class="col-md-3 counter_box x">
+          <p id="space" class="counter">0</p>
+          <p><b>SPACES</b></p>
+        </div>
+        <div class="col-md-3 counter_box x">
+          <p id="specialc" class="counter">0</p>
+          <p><b>SPECIAL CHARACTERS</b></p>
+        </div>
+      </div>
+    </div>
+    <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+  </body>
+</html>
